@@ -17,14 +17,22 @@
           <div id="form-hide">
             <p>Player 1: Please type a sentence</p>
             <form id="player1-submit" action="index.html" method="post">
-                <div class="form-group">
-                  <input id = "player1-text" class="form-control" type="text" name="" value="">
-                </div>
-                <button class="btn btn-secondary" type="submit" name="button">Submit Sentence</button>
+              <div class="form-group">
+                <input id = "player1-text" class="form-control" type="text" name="" value="">
               </div>
-            </form>
+              <button class="btn btn-secondary" type="submit" name="button">Submit Sentence</button>
+          </div>
+          </form>
+          <h3 id = "removeVowels"></h3>
+          <form id="player2-guess" action="index.html" method="post">
+            <p>Player 2: Guess the sentence</p>
+            <div class="form-group">
+              <input class="form-control" id = "player2-text" type="text" name="" value="">
+            </div>
+            <button type="submit" class="btn btn-secondary" name="button">Submit Guess</button>
+          </form>
           <div class="form-group">
-            <h3 id="removeVowels"></h3>
+            <h3 id='response'></h3>
           </div>
         </div>
       </div>

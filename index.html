@@ -7,9 +7,27 @@
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>Word Puzzle</title>
   </head>
   <body>
-
+    <div class="container-fluid">
+      <div class="card">
+        <div class="card-body">
+          <h3>Word Puzzle</h3>
+          <div id="form-hide">
+            <p>Player 1: Please type a sentence</p>
+            <form id="player1-submit" action="index.html" method="post">
+                <div class="form-group">
+                  <input id = "player1-text" class="form-control" type="text" name="" value="">
+                </div>
+                <button class="btn btn-secondary" type="submit" name="button">Submit Sentence</button>
+              </div>
+            </form>
+          <div class="form-group">
+            <h3 id="removeVowels"></h3>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

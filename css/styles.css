@@ -1,3 +1,10 @@
 #player2-guess {
   display: none;
 }
+
+.card {
+  margin: 20% auto;
+  width: 60%;
+  background-color: #00B3B4;
+  color: white;
+}
